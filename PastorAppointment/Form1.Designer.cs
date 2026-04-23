@@ -28,125 +28,125 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            textBox1 = new TextBox();
-            label2 = new Label();
-            textBox2 = new TextBox();
-            label3 = new Label();
-            textBox3 = new TextBox();
-            label4 = new Label();
+            lblPastorName = new Label();
+            txtPastorName = new TextBox();
+            lblLocation = new Label();
+            txtLocation = new TextBox();
+            lblRaison = new Label();
+            txtReason = new TextBox();
+            lblAdditionalInfo = new Label();
             textBox4 = new TextBox();
-            label5 = new Label();
-            dateTimePicker1 = new DateTimePicker();
-            button1 = new Button();
+            lblDate = new Label();
+            dtpDateAppointment = new DateTimePicker();
+            btnSubmit = new Button();
             SuspendLayout();
             // 
-            // label1
+            // lblPastorName
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(0, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(97, 41);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            lblPastorName.AutoSize = true;
+            lblPastorName.Location = new Point(0, 0);
+            lblPastorName.Name = "lblPastorName";
+            lblPastorName.Size = new Size(209, 41);
+            lblPastorName.TabIndex = 0;
+            lblPastorName.Text = "Name of Pator";
             // 
-            // textBox1
+            // txtPastorName
             // 
-            textBox1.Location = new Point(103, 0);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(250, 47);
-            textBox1.TabIndex = 1;
+            txtPastorName.Location = new Point(240, 9);
+            txtPastorName.Name = "txtPastorName";
+            txtPastorName.Size = new Size(380, 47);
+            txtPastorName.TabIndex = 1;
             // 
-            // label2
+            // lblLocation
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(0, 62);
-            label2.Name = "label2";
-            label2.Size = new Size(97, 41);
-            label2.TabIndex = 2;
-            label2.Text = "label2";
+            lblLocation.AutoSize = true;
+            lblLocation.Location = new Point(0, 62);
+            lblLocation.Name = "lblLocation";
+            lblLocation.Size = new Size(131, 41);
+            lblLocation.TabIndex = 2;
+            lblLocation.Text = "Location";
             // 
-            // textBox2
+            // txtLocation
             // 
-            textBox2.Location = new Point(103, 62);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(250, 47);
-            textBox2.TabIndex = 3;
+            txtLocation.Location = new Point(240, 71);
+            txtLocation.Name = "txtLocation";
+            txtLocation.Size = new Size(380, 47);
+            txtLocation.TabIndex = 3;
             // 
-            // label3
+            // lblRaison
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(0, 130);
-            label3.Name = "label3";
-            label3.Size = new Size(97, 41);
-            label3.TabIndex = 4;
-            label3.Text = "label3";
+            lblRaison.AutoSize = true;
+            lblRaison.Location = new Point(0, 169);
+            lblRaison.Name = "lblRaison";
+            lblRaison.Size = new Size(325, 41);
+            lblRaison.TabIndex = 4;
+            lblRaison.Text = "Raison of Appointment";
             // 
-            // textBox3
+            // txtReason
             // 
-            textBox3.Location = new Point(103, 124);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(250, 118);
-            textBox3.TabIndex = 5;
+            txtReason.Location = new Point(370, 127);
+            txtReason.Multiline = true;
+            txtReason.Name = "txtReason";
+            txtReason.Size = new Size(250, 118);
+            txtReason.TabIndex = 5;
             // 
-            // label4
+            // lblAdditionalInfo
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(0, 259);
-            label4.Name = "label4";
-            label4.Size = new Size(97, 41);
-            label4.TabIndex = 6;
-            label4.Text = "label4";
+            lblAdditionalInfo.AutoSize = true;
+            lblAdditionalInfo.Location = new Point(0, 259);
+            lblAdditionalInfo.Name = "lblAdditionalInfo";
+            lblAdditionalInfo.Size = new Size(316, 41);
+            lblAdditionalInfo.TabIndex = 6;
+            lblAdditionalInfo.Text = "Additional information";
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(103, 259);
+            textBox4.Location = new Point(370, 269);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(250, 47);
             textBox4.TabIndex = 7;
             // 
-            // label5
+            // lblDate
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(0, 346);
-            label5.Name = "label5";
-            label5.Size = new Size(97, 41);
-            label5.TabIndex = 8;
-            label5.Text = "label5";
+            lblDate.AutoSize = true;
+            lblDate.Location = new Point(0, 346);
+            lblDate.Name = "lblDate";
+            lblDate.Size = new Size(299, 41);
+            lblDate.TabIndex = 8;
+            lblDate.Text = "Date of Appointment";
             // 
-            // dateTimePicker1
+            // dtpDateAppointment
             // 
-            dateTimePicker1.Location = new Point(103, 346);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(500, 47);
-            dateTimePicker1.TabIndex = 9;
+            dtpDateAppointment.Location = new Point(305, 346);
+            dtpDateAppointment.Name = "dtpDateAppointment";
+            dtpDateAppointment.Size = new Size(500, 47);
+            dtpDateAppointment.TabIndex = 9;
             // 
-            // button1
+            // btnSubmit
             // 
-            button1.Location = new Point(112, 484);
-            button1.Name = "button1";
-            button1.Size = new Size(328, 92);
-            button1.TabIndex = 10;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnSubmit.Location = new Point(112, 484);
+            btnSubmit.Name = "btnSubmit";
+            btnSubmit.Size = new Size(328, 92);
+            btnSubmit.TabIndex = 10;
+            btnSubmit.Text = "Submit Appointment";
+            btnSubmit.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 660);
-            Controls.Add(button1);
-            Controls.Add(dateTimePicker1);
-            Controls.Add(label5);
+            ClientSize = new Size(854, 660);
+            Controls.Add(btnSubmit);
+            Controls.Add(dtpDateAppointment);
+            Controls.Add(lblDate);
             Controls.Add(textBox4);
-            Controls.Add(label4);
-            Controls.Add(textBox3);
-            Controls.Add(label3);
-            Controls.Add(textBox2);
-            Controls.Add(label2);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
+            Controls.Add(lblAdditionalInfo);
+            Controls.Add(txtReason);
+            Controls.Add(lblRaison);
+            Controls.Add(txtLocation);
+            Controls.Add(lblLocation);
+            Controls.Add(txtPastorName);
+            Controls.Add(lblPastorName);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -166,5 +166,15 @@
         private Label label5;
         private DateTimePicker dateTimePicker1;
         private Button button1;
+        private TextBox txtPastorName;
+        private Label lblPastorName;
+        private Label lblLocation;
+        private TextBox txtLocation;
+        private Label lblRaison;
+        private TextBox txtReason;
+        private Label lblAdditionalInfo;
+        private Label lblDate;
+        private DateTimePicker dtpDateAppointment;
+        private Button btnSubmit;
     }
 }
