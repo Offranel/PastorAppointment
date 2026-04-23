@@ -35,7 +35,7 @@
             lblRaison = new Label();
             txtReason = new TextBox();
             lblAdditionalInfo = new Label();
-            textBox4 = new TextBox();
+            txtAdditionalInfo = new TextBox();
             lblDate = new Label();
             dtpDateAppointment = new DateTimePicker();
             btnSubmit = new Button();
@@ -46,9 +46,9 @@
             lblPastorName.AutoSize = true;
             lblPastorName.Location = new Point(0, 0);
             lblPastorName.Name = "lblPastorName";
-            lblPastorName.Size = new Size(209, 41);
+            lblPastorName.Size = new Size(222, 41);
             lblPastorName.TabIndex = 0;
-            lblPastorName.Text = "Name of Pator";
+            lblPastorName.Text = "Name of Pastor";
             // 
             // txtPastorName
             // 
@@ -99,12 +99,12 @@
             lblAdditionalInfo.TabIndex = 6;
             lblAdditionalInfo.Text = "Additional information";
             // 
-            // textBox4
+            // txtAdditionalInfo
             // 
-            textBox4.Location = new Point(370, 269);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(250, 47);
-            textBox4.TabIndex = 7;
+            txtAdditionalInfo.Location = new Point(370, 269);
+            txtAdditionalInfo.Name = "txtAdditionalInfo";
+            txtAdditionalInfo.Size = new Size(250, 47);
+            txtAdditionalInfo.TabIndex = 7;
             // 
             // lblDate
             // 
@@ -130,6 +130,7 @@
             btnSubmit.TabIndex = 10;
             btnSubmit.Text = "Submit Appointment";
             btnSubmit.UseVisualStyleBackColor = true;
+            btnSubmit.Click += btnSubmit_Click;
             // 
             // Form1
             // 
@@ -139,7 +140,7 @@
             Controls.Add(btnSubmit);
             Controls.Add(dtpDateAppointment);
             Controls.Add(lblDate);
-            Controls.Add(textBox4);
+            Controls.Add(txtAdditionalInfo);
             Controls.Add(lblAdditionalInfo);
             Controls.Add(txtReason);
             Controls.Add(lblRaison);
@@ -149,6 +150,7 @@
             Controls.Add(lblPastorName);
             Name = "Form1";
             Text = "Pastor Appointment";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -162,7 +164,7 @@
         private Label label3;
         private TextBox textBox3;
         private Label label4;
-        private TextBox textBox4;
+        private TextBox txtAdditionalInfo;
         private Label label5;
         private DateTimePicker dateTimePicker1;
         private Button button1;
