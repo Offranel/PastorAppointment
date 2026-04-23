@@ -28,7 +28,7 @@ This is a minimal Windows Forms application that captures basic information for 
 
 Place a screenshot of the form at `docs/docs/pastorProgramForm.png` and include it in the README like this:
 
-![Create pastor appointment](docs/docs/pastorProgramForm.png)
+![Create pastor appointment](docs/Pasto22.PNG)
 
 Adjust the path if your screenshot is stored elsewhere.
 

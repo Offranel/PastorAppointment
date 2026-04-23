@@ -148,7 +148,7 @@
             Controls.Add(txtPastorName);
             Controls.Add(lblPastorName);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Pastor Appointment";
             ResumeLayout(false);
             PerformLayout();
         }
