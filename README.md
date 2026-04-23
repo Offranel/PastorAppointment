@@ -35,8 +35,8 @@ Adjust the path if your screenshot is stored elsewhere.
 
 ## Usage
 
-1. Launch the application.
-2. Fill in the form fields (Name, Location, Reason, Additional information, Date).
-3. Click "Submit appointment" to save/submit the record.
+
+1. Fill in the form fields (Name, Location, Reason, Additional information, Date).
+2. Click "Submit appointment" to save/submit the record.
 
 
